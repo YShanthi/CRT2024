@@ -1,0 +1,22 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    int w,n1,n2;
+    scanf("%d%d%d",&w,&n1,&n2);
+    int b=n1*75+n2*30;
+    if(b<=w)
+    {
+        printf("Boat is stable");
+    }
+    else
+    {
+        printf("Boat will drown");
+    }
+    return 0;
+}
