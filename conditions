@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int day,month,year,n;
+    scanf("%d%d%d%d",&day,&month,&year,&n);
+    int sum=day+month+year;
+    int product=3*4;
+    if(sum%product==0&&n>50&&n<100)
+    {
+        printf("Cinema Day");
+    }
+    else
+    {
+        printf("Not a Cinema Day");
+    }
+    return 0;
+}
