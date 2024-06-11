@@ -1,0 +1,14 @@
+#include <stdio.h>
+void increment()
+{
+    static int a=1,i;
+    printf("%d",i);
+    a++;
+}
+int main()
+{
+    increment();
+    increment();
+    increment();
+}
+    
