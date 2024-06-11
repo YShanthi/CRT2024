@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+   int a[45]={45,10,65,12},i;
+   for(i=0;i<4;i++)
+   {
+       printf("%d ",a[i]);
+   }
+   return 0;
+}
