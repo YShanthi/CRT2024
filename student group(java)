@@ -1,0 +1,25 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int p=sc.nextInt();
+        if(p>=100&&p<=200)
+        {
+            int r=p/4;
+            int b=p%4;
+            int c=r+b;
+            System.out.println(r);
+            System.out.println(r);
+            System.out.println(r);
+            System.out.println(c);
+        }
+        else 
+        {
+            System.out.println("INVALID INPUT");
+        }
+    }
+}
+    
