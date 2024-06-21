@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+        int w=sc.nextInt();
+        int na=sc.nextInt();
+        int nc=sc.nextInt();
+        int x=na*75+nc*30;
+        if(x<=w)
+        {
+            System.out.println("Boat is stable");
+        }
+        else
+        {
+            System.out.println("Boat will drown");
+        }
+    }
+}
