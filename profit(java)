@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int x=sc.nextInt();
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int cp=x*b;
+        int sp=x*a;
+        int t=(sp-cp)-100;
+        System.out.println(t);
+    }
+}
