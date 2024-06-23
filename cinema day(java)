@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int d=sc.nextInt();
+        int m=sc.nextInt();
+        int y=sc.nextInt();
+        int n=sc.nextInt();
+        int a=d+m+y;
+        int b=3*4;
+        if(n>50&&n<100)
+        {
+            System.out.println("Cinema Day");
+        }
+        else
+        {
+            System.out.println("Not a Cinema Day");
+        }
+        }
+}
