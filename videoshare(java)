@@ -1,0 +1,32 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int x=sc.nextInt();
+        if(x>30&&x<50)
+        {
+            System.out.println("Average\n");
+        }
+        else if(x>51&&x<60)
+        {
+            System.out.println("Good\n");
+        }
+        else if(x>61&&x<80)
+        {
+            System.out.println("Excellent\n");
+        }
+        else if(x>81&&x<100)
+        {
+            System.out.println("Outstanding\n");
+        }
+        else
+        {
+            System.out.println("Invalid Input");
+        }
+        
+        
+    }
+}
